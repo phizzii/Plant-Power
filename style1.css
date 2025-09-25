@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'bytesize';
+    src: url('assets/Bytesized-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background-image: url("assets/background_garden.png");
+    /*background-size: contain;
+    background-size: cover;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'bytesize', cursive;
+    text-align: center;
+}  
+
+h1 {
+    color: #6d6875;
+    font-size: 2.5rem;
+}
+
+#play_button {
+    margin-top: 400px;
+    width: 200px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+#play_button:active {
+    transform: scale(0.95);
+}
+
+#title {
+    position: fixed;
+    top: 260px; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    margin: 0;
+    border-radius: 0;
+}
+
+#back_arrow {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+    
+#back_arrow:hover {
+    transform: rotate(-10deg) scale(1.1);
+}
