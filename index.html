@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my new desktop app</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <img src="assets/title.png" id="title" />
+    <img src="assets/play_button.png" id='play_button' />
+
+    <script>
+        const { ipcRenderer } = require('electron');
+        const playBtn = document.getElementById('play_button');
+        const clickSound = new Audio('assets/mouse_click.mp3');
+
+        playBtn.addEventListener('click', () => {
+            clickSound.currentTime = 0;
+            clickSound.play();
+            ipcRenderer.send('open-play-window');
+        });
+    </script>
+</body>
+
+</html>

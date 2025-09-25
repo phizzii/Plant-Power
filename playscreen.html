@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Plant Nursery</h1>
+    <img src="assets/book_closed.png" id="taskBookBtn" />
+    <img src="assets/arrow.png" id="back_arrow" />
+
+    <script>
+        const { ipcRenderer } = require('electron');
+
+        const bookBtn = document.getElementById('taskBookBtn');
+        const backBtn = document.getElementById('back_arrow');
+        const clickSound = new Audio('assets/mouse_click.mp3');
+
+        let taskBookOpen = false;
+
+        bookBtn.addEventListener('click', () => {
+            clickSound.currentTime = 0;
+            clickSound.play();
+            if (!taskBookOpen) {
+                ipcRenderer.send('open-taskbook-window');
+                bookBtn.src = 'assets/book_open.png';
+                taskBookOpen = true;
+            } else {
+                ipcRenderer.send('close-taskbook-window');
+                bookBtn.src = 'assets/book_closed.png';
+                taskBookOpen = false;
+            }
+        });
+
+        ipcRenderer.on('taskbook-closed', () => {
+            bookBtn.src = 'assets/book_closed.png';
+            taskBookOpen = false;
+        });
+
+        backBtn.addEventListener('click', () => {
+            clickSound.currentTime = 0;
+            clickSound.play();
+            ipcRenderer.send('close-play-window');
+        });
+    </script>
+</body>
+</html>
