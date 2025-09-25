@@ -17,7 +17,7 @@
         playBtn.addEventListener('click', () => {
             clickSound.currentTime = 0;
             clickSound.play();
-            ipcRenderer.send('open-play-window');
+            ipcRenderer.send('open-play-window'); // checking to see if this is pushed
         });
     </script>
 </body>
