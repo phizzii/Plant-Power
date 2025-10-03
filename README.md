@@ -15,7 +15,13 @@
 
 ## <samp> $\color{White}{Skills}$<samp> <br>
 
-### <samp> $\color{Yellowgreen}{>\ Strengthening\ cross-platform\ development,\ multi-window\ architecture,\ inter-process\ communication,\ and\ responsive\ UI/UX\ design}$<samp> <br>
+### <samp> $\color{Yellowgreen}{>\ Cross-platform\ desktop\ development}$<samp>
+
+### <samp> $\color{Yellowgreen}{>\ Multi-window\ architecture}$<samp>
+
+### <samp> $\color{Yellowgreen}{>\ Inter-process\ communication}$<samp>
+
+### <samp> $\color{Yellowgreen}{>\ Responsive\ UI/UX\ design}$<samp> <br>
 
 
 
