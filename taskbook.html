@@ -12,7 +12,14 @@
         <button id="tab-tasks">Tasks</button>
         <button id="tab-completed">Completed</button>
     </div>
-
+    <div id="task-list-container">
+        <input type="text" id="new-task-input" placeholder="add a task here!!">
+        <button id="add-task-button">Add</button>
+        <ul id="task-list"></ul>
+    </div>
+    <div id="completed-list-container" style="display:none;">
+        <ul id="completed-list"></ul>
+    </div>
     <script>
         const clickSound = new Audio('assets/mouse_click.mp3');
         document.getElementById('back_arrow').addEventListener('click', () => {
