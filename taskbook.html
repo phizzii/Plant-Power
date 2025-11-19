@@ -20,13 +20,6 @@
     <div id="completed-list-container" style="display:none;">
         <ul id="completed-list"></ul>
     </div>
-    <script>
-        const clickSound = new Audio('assets/mouse_click.mp3');
-        document.getElementById('back_arrow').addEventListener('click', () => {
-            clickSound.currentTime = 0;
-            clickSound.play();
-            window.close(); // works since this is a popup
-        });
-    </script>
+    <script src="taskbook.js"></script>
 </body>
 </html>
