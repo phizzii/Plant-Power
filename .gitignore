@@ -1,0 +1,29 @@
+# Node and Electron
+node_modules/
+dist/
+out/
+release/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build and cache
+*.asar
+.cache/
+temp/
+*.tmp
+
+# Electron build outputs
+*.app
+*.exe
+*.dll
+*.dmg
+*.msi
+*.zip
+*.tar.gz
+
+# Environment and config
+.env
+.env.local

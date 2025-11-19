@@ -24,6 +24,11 @@
     transform: rotate(-10deg) scale(1.1);
 }
 
+#task-book-title {
+    margin-left: 60px;
+    text-align: left;
+}
+
 body {
     margin: 0;
     font-family: 'bytesize', cursive;
