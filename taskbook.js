@@ -15,7 +15,7 @@ const completedList = document.getElementById('completed-list');
 
 // adding a task
 addButton.addEventListener('click', () => {
-    const text = input.ariaValueMax.trim();
+    const text = input.value.trim();
     if (text === "") return;
 
     clickSound.currentTime = 0;
@@ -43,3 +43,25 @@ function completeTask(item) {
     completedList.appendChild(newItem);
 }
 
+// tabs :)
+
+const tabTasks = document.getElementById("tab-tasks");
+const tabCompleted = document.getElementById("tab-completed");
+const taskContainer = document.getElementById("task-list-container");
+const completedContainer = document.getElementById("completed-list-container");
+
+tabTasks.addEventListener("click", () => {
+    tabTasks.classList.add("active");
+    tabCompleted.classList.remove("active");
+
+    taskContainer.style.display = "block";
+    completedContainer.style.display = "none";
+});
+
+tabCompleted.addEventListener("click", () => {
+    tabCompleted.classList.add("active");
+    tabTasks.classList.remove("active");
+
+    taskContainer.style.display = "none";
+    completedContainer.style.display = "block";
+});
