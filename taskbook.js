@@ -30,3 +30,16 @@ addButton.addEventListener('click', () => {
     input.value = "";
 });
 
+// marking file as complete
+
+function completeTask(item) {
+    clickSound.currentTime = 0;
+    clickSound.play();
+
+    const newItem = document.createElement("li");
+    newItem.textContent = "✔ " + item.textContent.substring(2);
+
+    item.remove();
+    completedList.appendChild(newItem);
+}
+
