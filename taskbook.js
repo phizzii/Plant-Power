@@ -13,6 +13,19 @@ const addButton = document.getElementById('add-task-button');
 const taskList = document.getElementById('task-list');
 const completedList = document.getElementById('completed-list');
 
+// save tasks using electron local storage
+
+function saveTasks() {
+    const tasks = [];
+    const completed = [];
+
+    taskList.querySelectorAll("li").forEach(li => tasks.push(li.textContent));
+    completedList.querySelectorAll("li").forEach(li => completed.push(li.textContent));
+
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+    localStorage.setItem("completed", JSON.stringify(completed));
+}
+
 // adding a task
 addButton.addEventListener('click', () => {
     const text = input.value.trim();
@@ -28,6 +41,7 @@ addButton.addEventListener('click', () => {
 
     taskList.appendChild(li);
     input.value = "";
+    saveTasks();
 });
 
 // marking file as complete
@@ -41,6 +55,7 @@ function completeTask(item) {
 
     item.remove();
     completedList.appendChild(newItem);
+    saveTasks();
 }
 
 // tabs :)
