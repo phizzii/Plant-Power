@@ -80,3 +80,7 @@ tabCompleted.addEventListener("click", () => {
     taskContainer.style.display = "none";
     completedContainer.style.display = "block";
 });
+
+function loadTasks() {
+    
+}
