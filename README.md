@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/phizzii/Plant-Power">
-    <img src="https://github.com/phizzii/Plant-Power/blob/main/.png" alt="Logo" width="600" height="400">
+    <img src="https://github.com/phizzii/Plant-Power/blob/main/assets/plant-power-title.png" alt="Logo" width="600" height="250">
   </a>
 
 <h3 align="center">Plant Power - Gamified Productivity App</h3>
@@ -56,9 +56,11 @@ This project (one of many hopefully!) will be a display of my learning in HTML, 
 
 ### Built With
 
-[![][]][-url]
+[![JavaScript][JavaScript]][javascript-url]
 
-[![][]][-url]
+[![CSS][CSS]][css-url]
+
+[![HTML][HTML]][html-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +111,11 @@ LinkedIn: [Add me here!!](https://www.linkedin.com/in/sophie-botten-82a91227a/)
 [license-url]: https://github.com/phizzii/Plant-Power/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sophie-botten-82a91227a/
-[product-screenshot]: main/
+[product-screenshot]: main/assets/plant-power-title.png
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
-[]: https://img.shields.io/badge/-82D3FF?style=for-the-badge&logo=&logoColor=white
-[-url]: 
-[]: https://img.shields.io/badge/c%23-40A600?style=for-the-badge
-[-url]: 
+[JavaScript]: https://img.shields.io/badge/Java%20Script-FFFF5C?style=for-the-badge&logo=&logoColor=white
+[javascript-url]: https://web.dev/learn/javascript
+[CSS]: https://img.shields.io/badge/css-E64E15?style=for-the-badge&logo=&logoColor=white
+[css-url]: https://web.dev/learn/css/
+[HTML]: https://img.shields.io/badge/html-BE5CFF?style=for-the-badge&logo=&logoColor=white
+[html-url]: https://web.dev/html
