@@ -18,15 +18,6 @@
     Project to upskill myself in HTML, CSS and JS as well as UI/UX design and creating my own assets.
     <br />
     <a href="https://github.com/phizzii/Plant-Power"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/phizzii/Plant-Power">View Demo</a>
-    &middot;
-    <a href="https://github.com/phizzii/Plant-Power/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/phizzii/Plant-Power/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
 
 <p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
 
