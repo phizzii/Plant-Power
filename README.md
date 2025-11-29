@@ -31,6 +31,13 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -53,6 +60,32 @@ This project (one of many hopefully!) will be a display of my learning in HTML, 
 
 [![HTML][HTML]][html-url]
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple example steps. 
+
+### Prerequisites
+
+Have a device capable of running the latest version Visual Studio Code
+
+### Installation
+
+1. Download the latest version of VS Code from [https://code.visualstudio.com](https://code.visualstudio.com)
+2. Download Node.js from [https://nodejs.org](https://nodejs.org/en/download)
+3. Download Electron module
+4. Clone the repo
+   ```sh
+   git clone https://github.com/phizzii/unity-obstacle-dodge.git
+   ```
+5. Then, open VS Code, open the cloned folder
+6. Go to terminal and type the following:
+   * Start
+  ```sh
+  npm start
+  ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
