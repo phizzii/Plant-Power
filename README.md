@@ -95,6 +95,8 @@ Have a device capable of running the latest version Visual Studio Code
 - [ ] Adding shop window
 - [ ] Creating currency (gold coins)
 - [ ] Letting user assign number of coins to task / making set rate per task
+- [ ] Add project to CircleCI (set up dashboard)
+- [ ] Create tests for different aspects of the app for CircleCI to verify
 
 See the [open issues](https://github.com/phizzii/Plant-Power/issues) for a full list of proposed features (and known issues).
 
